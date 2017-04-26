@@ -37,7 +37,6 @@ function displaySearchResults(data) {
 		});
 	}
 	else {
-		alert('here');
 		results = '<p>No results</p>';
 	}
 	$('.js-search-results').html(results);
