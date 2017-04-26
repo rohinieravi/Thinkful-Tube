@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	padding-left: 50px;
 }
@@ -19,4 +23,15 @@ body {
 
 a {
 	margin-left:20px;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+}
+
+.js-search-form button {
+	height: 30px;
+	margin-left: 5px;
 }
